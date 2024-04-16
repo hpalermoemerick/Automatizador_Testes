@@ -19,8 +19,3 @@ def get_file_list(path):
             fileList = {**fileList, **sublist}
 
     return fileList
-
-# path = r"C:\Users\paler\Downloads\2023f1p2_leilao\2023f1p2_leilao"
-# print(get_file_list(path)["filesInput"])
-# print('--------------------------')
-# print(get_file_list(path)["filesOutput"])
