@@ -93,7 +93,7 @@ def runCode(directory):
     print(f"You scored {n_corrects*100/len(myResults)}% on the test!")
 
 def main():
-    pathIn = r"C:\Users\paler\Downloads\2023f1p2_leilao\2023f1p2_leilao" or input()
+    pathIn = input()
     directory = formatPath(pathIn)
     runCode(directory)
 
